@@ -4,12 +4,16 @@ import (
 	"fmt"
 )
 
-func add(a,b int) (int) {
+func add(a int,b int) (int) {
 	add := a + b
 	return add
 
 }
 func main() {
-	addition := add(5,6)
-	fmt.Println("addition is: ", addition)
+	fmt.Println(add(4,5))
+	hello()
+}
+
+func hello() {
+	fmt.Println("Hello")
 }
